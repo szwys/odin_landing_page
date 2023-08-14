@@ -1,14 +1,22 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-a {
+header,
+.images,
+.quote,
+.sign-up {
+    padding: 50px;
+}
+
+.links > a,
+.intro-text > p,
+.intro-text > button {
     text-decoration: none;
     color: #e5e7eb;
 }
@@ -22,6 +30,7 @@ header {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    padding-top: 5px;
 }
 
 header nav {
@@ -30,4 +39,42 @@ header nav {
 
 header nav .title {
     margin-right: auto;
+}
+
+.intro {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.intro > * {
+    flex: 1;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.intro-text > h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.intro-text > button {
+    max-width: 100px;
+    background-color: #3882f6;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 800;
+}
+
+.intro-image > img {
+    max-width: 100%;
+    height: auto;
 }
