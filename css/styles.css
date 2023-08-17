@@ -11,7 +11,7 @@ header,
 .images,
 .quote,
 .sign-up {
-    padding: 0 200px;
+    padding: 40px 15vw;
 }
 
 .links > a,
@@ -77,4 +77,33 @@ header nav .title {
 .intro-image > img {
     max-width: 100%;
     height: auto;
+}
+
+.images > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.image-container {
+    display: flex;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.image-container > .image {
+    flex: 1;
+}
+
+.image-container > .image > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    border: solid 4px #3882f6;
+}
+
+.image-container > .image > p {
+    text-align: center;
+    padding: 0 5px;
 }
