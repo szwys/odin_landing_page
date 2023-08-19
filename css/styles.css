@@ -64,7 +64,8 @@ header nav .title {
     color: #f9faf8;
 }
 
-.intro-text > button {
+.intro-text > button,
+.sign-up > button {
     max-width: 100px;
     background-color: #3882f6;
     margin: 10px 0;
@@ -120,4 +121,23 @@ header nav .title {
 .quote > strong {
     display: block;
     text-align: end;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 25px;
+    margin: 40px 15vw;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.sign-up > .call-to-action {
+    flex: 1;
+}
+
+.sign-up > button {
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
 }
