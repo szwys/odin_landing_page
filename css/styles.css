@@ -141,3 +141,11 @@ header nav .title {
     color: #f9faf8;
     border: 2px solid #f9faf8;
 }
+
+footer {
+    text-align: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
